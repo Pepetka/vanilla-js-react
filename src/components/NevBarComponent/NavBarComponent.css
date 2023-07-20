@@ -1,0 +1,34 @@
+.link {
+	width: 100px;
+	border-bottom: solid 2px rgba(255, 255, 255, 0.87);
+}
+.link:hover {
+	transform: scale(1.05);
+}
+.link a {
+	display: block;
+}
+
+.linkList {
+	width: 100%;
+	height: 100%;
+	list-style: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 16px;
+}
+
+.nav {
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	height: 50px;
+}
+
+@media (prefers-color-scheme: light) {
+	.link {
+		color: #213547;
+	}
+}
